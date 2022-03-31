@@ -72,6 +72,7 @@
 
       this.player.on('play', ()=> {
        this.player.currentTime(this.liveStartTime);
+       this.overlay = false;
 
       })
 
